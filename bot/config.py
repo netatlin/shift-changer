@@ -1,5 +1,4 @@
 import os
-
 from pathlib import PurePath
 from dotenv import load_dotenv, find_dotenv
 

@@ -9,3 +9,5 @@ RUN pip install -r requirements.txt
 RUN mkdir /app
 WORKDIR /app
 COPY bot /app/bot
+
+CMD ["python", "bot/main.py"]

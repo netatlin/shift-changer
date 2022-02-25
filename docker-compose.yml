@@ -6,5 +6,4 @@ services:
       context: .
       dockerfile: Dockerfile
     env_file: ./config/.env
-    command: ['python', 'bot/main.py']
     restart: always
